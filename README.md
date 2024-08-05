@@ -13,7 +13,7 @@ This is a Node.js backend application designed to manage a Todo List. The applic
 
 ### Clone the Repository
 
-git clone https://github.com/shoaibmansoori/SHOAIB-MANSOORI-AnswersAi-Backend.git
+git clone https://github.com/shoaibmansoori/SHOAIB-MANSOORI-TodoApp-Backend.git
 
 
 ### Running the Project
@@ -33,7 +33,6 @@ git clone https://github.com/shoaibmansoori/SHOAIB-MANSOORI-AnswersAi-Backend.gi
 
 **Base URL: /todos**
 
-
 - **GET /:** Retrieve all todos.
 - **GET /:id:** Retrieve a todo by ID.
 - **POST /:** Create a new todo.
@@ -47,7 +46,7 @@ git clone https://github.com/shoaibmansoori/SHOAIB-MANSOORI-AnswersAi-Backend.gi
 
 ### Environment Variables
 
-- **MONGODB_URI**: your_mongodb_url
+- **MONGODB_URI**: your_mongodb_url(mongodb://127.0.0.1:27017/Your_database_name)
 - **PORT**: 5000
 
 
